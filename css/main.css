@@ -1,0 +1,85 @@
+      /* GENERAL CODES */
+      html{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        font-family: 'Barlow', sans-serif;
+        font-weight: normal;
+        line-height: 1.2;
+    }
+
+    img{
+        vertical-align: middle;
+    }
+
+    .container{
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 1320px;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0)
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 125px;
+    }
+    label{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-right: auto;
+
+    }
+    span{
+        margin-left: 10px;
+    }
+    label .input-controller{
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: auto;
+    }
+
+    .table-tannis:checked ~ .input-controller{
+        background-image: url(../images/table-tannis.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .basketbol:checked ~ .input-controller{
+        background-image: url(../images/big-basket.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+    }
+
+    .volleybol:checked ~ .input-controller{
+        background-image: url(../images/volleybol.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .hokkey:checked ~ .input-controller{
+        background-image: url(../images/heookey.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .third-label{
+        opacity: 0.5;
+    }

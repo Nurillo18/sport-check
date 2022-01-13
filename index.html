@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>sport-chack</title>
+</head>
+<body>
+  <div class="container">
+      <div class="sport">
+          <h1>Qaysi sport turiga qiziqasiz?</h1>
+          <form action="https://echo.htmlacademy.ru/" method="POST"  class="form">
+              <label>
+                <input class="visually-hidden table-tannis" type="checkbox" name="tennis" value="table-tannis">
+                <span class="input-controller"></span>
+                 <span> Stol tennisi</span>
+              </label>
+
+              <label>
+                <input class="visually-hidden basketbol" type="checkbox" name="basketbol" value="basketbol">
+                <span class="input-controller"></span>
+                <span>Basketbol</span>
+            </label>
+
+            <label>
+                <input class="visually-hidden volleybol" type="checkbox" name="volleybol" value="volleybol">
+                <span class="input-controller"></span>
+                <span> Volleybol</span>
+            </label>
+
+            <label class="third-label">
+                <input class="visually-hidden hokkey" checked type="checkbox" disabled name="hokkey" value="hokkey">
+                <span class="input-controller"></span>
+                <span>Hokkey</span>
+            </label>
+
+            <button style="width: 145px; margin-left: 10px;">send</button>
+
+          </form>
+      </div>
+  </div>
+</body>
+</html>
